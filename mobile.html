@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Unavilable</title>
+    <link rel="icon" href="icon.ico" />
+    <link rel="stylesheet" href="css_lib/header_main.css" />
+    <style>
+        @font-face {
+            font-family: 'Header';
+            src: url(../12905.otf);
+        }
+
+        button.goto {
+            width: 60%;
+            height: 160px;
+            margin-left: auto;
+            display: block;
+            margin-right: auto;
+            font-family: 'Header';
+            font-size: 3em;
+            background: #0DAB76;
+            border-radius: 20px;
+            border: none;
+            outline: none;
+            -moz-transition: 0.3s ease;
+            -o-transition: 0.3s ease;
+            -webkit-transition: 0.3s ease;
+            transition: 0.3s ease;
+        }
+
+            button.goto:active {
+                background: #ffffff;
+                border: 4px solid #202020;
+            }
+    </style>
+    <script type="text/javascript" src="js_lib/jquery.js"></script>
+</head>
+<body style="margin: 0; position: relative; min-height: 1260px; height: auto;">
+    <div style="width: 100%; max-width: 1920px; display: block; left: 50%; margin-right: -50%; transform: translate(-50%,0%); height: auto; position: absolute;">
+        <img src="CoreX3.0.png" style="width: 90%; margin: 100px auto 100px auto; display: block;" />
+    </div>
+    <div style="position: absolute; top: 50%; display: block; left: 50%; margin-right: -50%; transform: translate(-50%,-50%);">
+        <h1 style="padding: 5%; font-size: 3em; text-align: center; font-family: 'Header';">Mobile version of this page is currently not avilable in your country</h1>
+        <button class="goto">Go to desktop version</button>
+    </div>
+    <div id="socials_block" style="height: 15%; min-height: 140px; position: absolute; bottom: 0; width:100%;">
+        <div id="socials" style="width: auto; height: auto; top: 50%; display: block; left: 50%; margin-right: -50%; transform: translate(-50%,-50%);">
+            <a id="facebook_link" style="height:120px; width:120px; margin:10px;" href="https://www.facebook.com/profile.php?id=100005001452596"></a>
+            <a id="instagran_link" style="height:120px; width:120px; margin:10px;" href="https://www.instagram.com/free_eagle.ds/"></a>
+            <a id="telegram_link" style="height:120px; width:120px; margin:10px;" href="https://web.telegram.org/#/im?p=@Sokolovskiy01"></a>
+            <a id="twitter_link" style="height:120px; width:120px; margin:10px;" href="https://twitter.com/Dima51205917"></a>
+            <a id="youtube_link" style="height:120px; width:120px; margin:10px;" href="https://www.youtube.com/channel/UCOvWpx5w5lOrVlNum4klhVg"></a>
+            <a id="vk_link" style="height:120px; width:120px; margin:10px;" href="https://vk.com/sokolovskiy01"></a>
+        </div>
+    </div>
+    <script>
+        if ($(window).height() > 1260) document.getElementById('socials_block').style.position = 'fixed';
+        else document.getElementById('socials_block').style.position = 'absolute';
+    </script>
+</body>
+</html>

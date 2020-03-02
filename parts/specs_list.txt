@@ -1,0 +1,11 @@
+CPU
+CPU Cooler
+Motherboard
+RAM
+Storage
+Video Card
+Case
+Power Supply
+Optical Drive
+Monitor
+External Storage

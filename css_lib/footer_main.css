@@ -1,0 +1,80 @@
+footer.fttr{
+    width:100%;
+    height: 150px;
+    background: #202020;
+    display: block;
+    position: relative;
+    bottom: 0;
+}
+
+#links {
+    height: auto;
+    position: absolute;
+    top: 50%;
+    display: block;
+    transform: translate(50%,-50%);
+}
+
+#github {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background: url(../Icons/ghp.png);
+    background-size: 100%;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+    #github:hover {
+        background: url(../Icons/gho.png);
+        background-size: 100%;
+    }
+
+#mail {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background: url(../Icons/gmp.png);
+    background-size: 100%;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+    #mail:hover {
+        background: url(../Icons/gmo.png);
+        background-size: 100%;
+    }
+
+div.copyright {
+    height: 100%;
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+div.authors {
+    height: 100%;
+    width: 25%;
+    display: block;
+    float: left;
+    position: relative;
+}
+
+ul.authors_list {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    top: 27%;
+    padding: 0;
+    position: relative;
+}
+
+    ul.authors_list li {
+        margin: 6px;
+        font-family: Consolas;
+        color: #6247AA
+    }
